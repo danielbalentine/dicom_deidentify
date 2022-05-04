@@ -1,0 +1,560 @@
+2022-05-02 11:50:27,772 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-02 11:50:27,772 - INFO - backend - __init__: Backend Initialized
+2022-05-02 11:50:27,772 - INFO - backend - __init__: Site ID : 607
+2022-05-02 11:50:27,772 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-02 11:50:27,773 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-02 11:50:27,773 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-02 11:50:27,773 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-02 11:50:27,774 - INFO - backend - das_file_reader: .das file has been read
+2022-05-02 11:50:27,778 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-02 11:50:27,783 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-02 11:50:27,783 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-02 11:50:34,462 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-02 11:50:34,462 - INFO - backend - file_test: Beginning of file test...
+2022-05-02 11:50:48,133 - INFO - backend - file_test: End of file test...
+2022-05-02 12:53:14,414 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-02 12:53:14,429 - INFO - front_end - page_one: Start page has begun initialization...
+2022-05-02 12:53:14,535 - INFO - front_end - page_one: Start page has been initialized
+2022-05-02 12:53:36,516 - INFO - front_end - browse_files: Browse files button clicked
+2022-05-02 12:53:38,820 - INFO - front_end - get_entry: Start button clicked
+2022-05-02 13:16:07,902 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-02 13:16:07,903 - INFO - backend - __init__: Backend Initialized
+2022-05-02 13:16:07,903 - INFO - backend - __init__: Site ID : 607
+2022-05-02 13:16:07,903 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-02 13:16:07,903 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-02 13:16:07,903 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-02 13:16:07,903 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-02 13:16:07,905 - INFO - backend - das_file_reader: .das file has been read
+2022-05-02 13:16:07,919 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-02 13:16:07,924 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-02 13:16:07,924 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-02 13:16:18,170 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-02 13:16:18,171 - INFO - backend - file_test: Beginning of file test...
+2022-05-02 13:17:50,400 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-02 13:17:50,401 - INFO - backend - __init__: Backend Initialized
+2022-05-02 13:17:50,401 - INFO - backend - __init__: Site ID : 607
+2022-05-02 13:17:50,401 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-02 13:17:50,401 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-02 13:17:50,401 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-02 13:17:50,402 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-02 13:17:50,402 - INFO - backend - das_file_reader: .das file has been read
+2022-05-02 13:17:50,408 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-02 13:17:50,414 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-02 13:17:50,415 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-02 13:18:00,240 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-02 13:18:00,241 - INFO - backend - file_test: Beginning of file test...
+2022-05-02 13:35:24,084 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-02 13:35:24,085 - INFO - backend - __init__: Backend Initialized
+2022-05-02 13:35:24,086 - INFO - backend - __init__: Site ID : 607
+2022-05-02 13:35:24,086 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-02 13:35:24,086 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-02 13:35:24,086 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-02 13:35:24,086 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-02 13:35:24,087 - INFO - backend - das_file_reader: .das file has been read
+2022-05-02 13:35:24,098 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-02 13:35:24,103 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-02 13:35:24,103 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-02 13:35:30,638 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-02 13:35:30,639 - INFO - backend - file_test: Beginning of file test...
+2022-05-02 13:35:42,355 - INFO - backend - file_test: End of file test...
+2022-05-02 13:35:53,391 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-02 13:35:53,400 - INFO - front_end - page_one: Start page has begun initialization...
+2022-05-02 13:35:53,491 - INFO - front_end - page_one: Start page has been initialized
+2022-05-02 13:36:12,581 - INFO - front_end - browse_files: Browse files button clicked
+2022-05-02 13:36:19,128 - INFO - front_end - get_entry: Start button clicked
+2022-05-02 13:36:19,131 - INFO - backend - __init__: Backend Initialized
+2022-05-02 13:36:19,131 - INFO - backend - __init__: Site ID : 607
+2022-05-02 13:36:19,131 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-02 13:36:19,132 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-02 13:36:19,132 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-02 13:36:19,132 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-02 13:36:19,132 - INFO - backend - das_file_reader: .das file has been read
+2022-05-02 13:36:19,136 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-02 13:36:19,141 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-02 13:36:19,141 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-02 13:36:25,450 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-02 13:36:25,450 - INFO - backend - file_test: Beginning of file test...
+2022-05-02 13:36:36,960 - INFO - backend - file_test: End of file test...
+2022-05-02 13:37:49,861 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-02 13:37:49,862 - INFO - backend - __init__: Backend Initialized
+2022-05-02 13:37:49,862 - INFO - backend - __init__: Site ID : 607
+2022-05-02 13:37:49,863 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-02 13:37:49,863 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-02 13:37:49,864 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-02 13:37:49,864 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-02 13:37:49,865 - INFO - backend - das_file_reader: .das file has been read
+2022-05-02 13:37:49,868 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-02 13:37:49,873 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-02 13:37:49,874 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-02 13:37:58,259 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-02 13:37:58,259 - INFO - backend - file_test: Beginning of file test...
+2022-05-02 13:38:12,641 - INFO - backend - file_test: End of file test...
+2022-05-02 13:47:40,277 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-02 13:47:40,285 - INFO - front_end - page_one: Start page has begun initialization...
+2022-05-02 13:47:40,376 - INFO - front_end - page_one: Start page has been initialized
+2022-05-02 13:48:29,997 - INFO - front_end - browse_files: Browse files button clicked
+2022-05-02 13:48:33,724 - INFO - front_end - get_entry: Start button clicked
+2022-05-02 13:48:33,727 - INFO - backend - __init__: Backend Initialized
+2022-05-02 13:48:33,727 - INFO - backend - __init__: Site ID : 607
+2022-05-02 13:48:33,727 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-02 13:48:33,727 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-02 13:48:33,727 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-02 13:48:33,728 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-02 13:48:33,728 - INFO - backend - das_file_reader: .das file has been read
+2022-05-02 13:48:33,729 - INFO - backend - walk_through_files: Created : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith_did
+2022-05-02 13:48:33,734 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-02 13:48:33,739 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-02 13:48:33,739 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-02 13:48:40,146 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-02 13:48:40,146 - INFO - backend - file_test: Beginning of file test...
+2022-05-02 13:48:51,217 - INFO - backend - file_test: End of file test...
+2022-05-02 13:48:55,922 - INFO - front_end - restart_app: Program has been restarted
+2022-05-02 13:48:55,924 - INFO - front_end - page_one: Start page has begun initialization...
+2022-05-02 13:48:56,005 - INFO - front_end - page_one: Start page has been initialized
+2022-05-03 10:02:33,711 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-03 10:02:33,712 - INFO - backend - __init__: Backend Initialized
+2022-05-03 10:02:33,713 - INFO - backend - __init__: Site ID : 607
+2022-05-03 10:02:33,713 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 10:02:33,713 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 10:02:33,713 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 10:02:33,714 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 10:02:33,722 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 10:02:33,741 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 10:02:33,747 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-03 10:02:33,748 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-03 10:03:31,439 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-03 10:03:31,440 - INFO - backend - __init__: Backend Initialized
+2022-05-03 10:03:31,440 - INFO - backend - __init__: Site ID : 607
+2022-05-03 10:03:31,440 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 10:03:31,441 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 10:03:31,441 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 10:03:31,441 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 10:03:31,441 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 10:03:31,446 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 10:03:31,453 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-03 10:03:31,453 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-03 10:03:44,984 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-03 10:03:44,984 - INFO - backend - file_test: Beginning of file test...
+2022-05-03 10:03:56,527 - INFO - backend - file_test: End of file test...
+2022-05-03 10:12:53,768 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-03 10:12:53,769 - INFO - backend - __init__: Backend Initialized
+2022-05-03 10:12:53,769 - INFO - backend - __init__: Site ID : 607
+2022-05-03 10:12:53,769 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 10:12:53,770 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 10:12:53,770 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 10:12:53,770 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 10:12:53,771 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 10:12:53,777 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 10:12:53,781 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-03 10:12:53,782 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-03 10:15:40,076 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-03 10:15:40,076 - INFO - backend - __init__: Backend Initialized
+2022-05-03 10:15:40,077 - INFO - backend - __init__: Site ID : 607
+2022-05-03 10:15:40,077 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 10:15:40,077 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 10:15:40,077 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 10:15:40,078 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 10:15:40,078 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 10:15:40,082 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 10:15:40,088 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-03 10:15:40,088 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-03 10:16:27,733 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-03 10:16:27,734 - INFO - backend - __init__: Backend Initialized
+2022-05-03 10:16:27,734 - INFO - backend - __init__: Site ID : 607
+2022-05-03 10:16:27,734 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 10:16:27,735 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 10:16:27,735 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 10:16:27,735 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 10:16:27,736 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 10:16:27,740 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 10:16:27,746 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-03 10:16:27,746 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-03 10:17:39,498 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-03 10:17:39,500 - INFO - backend - __init__: Backend Initialized
+2022-05-03 10:17:39,500 - INFO - backend - __init__: Site ID : 607
+2022-05-03 10:17:39,500 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 10:17:39,501 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 10:17:39,501 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 10:17:39,501 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 10:17:39,503 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 10:17:39,507 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 10:17:39,513 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-03 10:17:39,514 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-03 10:18:46,549 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-03 10:18:46,551 - INFO - backend - __init__: Backend Initialized
+2022-05-03 10:18:46,551 - INFO - backend - __init__: Site ID : 607
+2022-05-03 10:18:46,552 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 10:18:46,552 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 10:18:46,552 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 10:18:46,552 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 10:18:46,553 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 10:18:46,558 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 10:18:46,563 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-03 10:18:46,563 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-03 10:21:59,309 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-03 10:21:59,310 - INFO - backend - __init__: Backend Initialized
+2022-05-03 10:21:59,310 - INFO - backend - __init__: Site ID : 607
+2022-05-03 10:21:59,310 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 10:21:59,310 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 10:21:59,311 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 10:21:59,311 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 10:21:59,312 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 10:21:59,316 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 10:21:59,322 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-03 10:21:59,322 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-03 10:22:07,525 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-03 10:22:07,526 - INFO - backend - file_test: Beginning of file test...
+2022-05-03 10:22:19,506 - INFO - backend - file_test: End of file test...
+2022-05-03 10:44:27,511 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-03 10:44:27,512 - INFO - backend - __init__: Backend Initialized
+2022-05-03 10:44:27,512 - INFO - backend - __init__: Site ID : 607
+2022-05-03 10:44:27,512 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 10:44:27,512 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 10:44:27,513 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 10:44:27,513 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 10:44:27,514 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 10:44:27,519 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 10:44:27,524 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-03 10:44:27,524 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-03 10:44:36,043 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-03 10:44:36,044 - INFO - backend - file_test: Beginning of file test...
+2022-05-03 10:44:47,833 - INFO - backend - file_test: End of file test...
+2022-05-03 10:52:39,221 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-03 10:52:39,222 - INFO - backend - __init__: Backend Initialized
+2022-05-03 10:52:39,222 - INFO - backend - __init__: Site ID : 607
+2022-05-03 10:52:39,222 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 10:52:39,222 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 10:52:39,223 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 10:52:39,223 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 10:52:39,224 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 10:52:39,228 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 10:52:39,233 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-03 10:52:39,233 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-03 10:52:46,024 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-03 10:52:46,024 - INFO - backend - file_test: Beginning of file test...
+2022-05-03 10:52:51,753 - INFO - backend - file_test: End of file test...
+2022-05-03 10:59:07,886 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-03 10:59:07,887 - INFO - backend - __init__: Backend Initialized
+2022-05-03 10:59:07,887 - INFO - backend - __init__: Site ID : 607
+2022-05-03 10:59:07,887 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 10:59:07,888 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 10:59:07,888 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 10:59:07,888 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 10:59:07,889 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 10:59:07,893 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 10:59:07,902 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-03 10:59:07,902 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-03 10:59:15,793 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-03 10:59:15,794 - INFO - backend - file_test: Beginning of file test...
+2022-05-03 10:59:22,683 - INFO - backend - file_test: End of file test...
+2022-05-03 11:04:22,920 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-03 11:04:22,939 - INFO - front_end - page_one: Start page has begun initialization...
+2022-05-03 11:04:23,056 - INFO - front_end - page_one: Start page has been initialized
+2022-05-03 11:04:43,593 - INFO - front_end - browse_files: Browse files button clicked
+2022-05-03 11:04:48,137 - INFO - front_end - get_entry: Start button clicked
+2022-05-03 11:04:48,139 - INFO - backend - __init__: Backend Initialized
+2022-05-03 11:04:48,140 - INFO - backend - __init__: Site ID : 607
+2022-05-03 11:04:48,140 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 11:04:48,140 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 11:04:48,140 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:04:48,140 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 11:04:48,141 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 11:04:48,141 - INFO - backend - walk_through_files: Created : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith_did
+2022-05-03 11:04:48,147 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:04:48,152 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-03 11:04:48,152 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-03 11:04:56,259 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-03 11:04:56,259 - INFO - backend - file_test: Beginning of file test...
+2022-05-03 11:05:04,625 - INFO - backend - file_test: End of file test...
+2022-05-03 11:05:24,609 - INFO - front_end - restart_app: Program has been restarted
+2022-05-03 11:05:24,611 - INFO - front_end - page_one: Start page has begun initialization...
+2022-05-03 11:05:24,753 - INFO - front_end - page_one: Start page has been initialized
+2022-05-03 11:05:26,239 - INFO - front_end - browse_files: Browse files button clicked
+2022-05-03 11:05:38,648 - INFO - front_end - get_entry: Start button clicked
+2022-05-03 11:05:38,650 - INFO - backend - __init__: Backend Initialized
+2022-05-03 11:05:38,650 - INFO - backend - __init__: Site ID : 607
+2022-05-03 11:05:38,650 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 11:05:38,651 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 11:05:38,651 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/single_file_test
+2022-05-03 11:05:38,651 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 11:05:38,651 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 11:05:38,757 - INFO - backend - walk_through_files: Created : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/single_file_test_did
+2022-05-03 11:05:38,758 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/single_file_test
+2022-05-03 11:05:38,758 - INFO - backend - walk_through_files: Finished reading files...found 1 files
+2022-05-03 11:05:38,758 - INFO - backend - deidentify_files: Deidentifying 1 files.
+2022-05-03 11:05:38,791 - INFO - backend - deidentify_files: Deidentification of 1 files complete
+2022-05-03 11:05:38,791 - INFO - backend - file_test: Beginning of file test...
+2022-05-03 11:05:38,797 - INFO - backend - file_test: End of file test...
+2022-05-03 11:36:12,743 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-03 11:36:12,745 - INFO - backend - __init__: Backend Initialized
+2022-05-03 11:36:12,745 - INFO - backend - __init__: Site ID : 607
+2022-05-03 11:36:12,746 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 11:36:12,746 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 11:36:12,746 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:36:12,746 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 11:36:12,754 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 11:36:12,755 - INFO - backend - walk_through_files: Created : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith_did
+2022-05-03 11:36:12,768 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:36:12,775 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-03 11:36:12,775 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-03 11:36:29,281 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-03 11:36:29,282 - INFO - backend - file_test: Beginning of file test...
+2022-05-03 11:36:36,855 - INFO - backend - file_test: End of file test...
+2022-05-03 11:36:49,788 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-03 11:36:49,788 - INFO - backend - __init__: Backend Initialized
+2022-05-03 11:36:49,789 - INFO - backend - __init__: Site ID : 607
+2022-05-03 11:36:49,789 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 11:36:49,789 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 11:36:49,790 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:36:49,790 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 11:36:49,791 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 11:36:49,797 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:36:49,807 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-03 11:36:49,807 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-03 11:36:57,587 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-03 11:36:57,587 - INFO - backend - file_test: Beginning of file test...
+2022-05-03 11:37:04,682 - INFO - backend - file_test: End of file test...
+2022-05-03 11:40:01,658 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-03 11:40:01,659 - INFO - backend - __init__: Backend Initialized
+2022-05-03 11:40:01,659 - INFO - backend - __init__: Site ID : 607
+2022-05-03 11:40:01,660 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 11:40:01,660 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 11:40:01,660 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:40:01,660 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 11:40:01,661 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 11:40:01,671 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:40:01,676 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-03 11:40:01,677 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-03 11:40:12,429 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-03 11:40:12,429 - INFO - backend - file_test: Beginning of file test...
+2022-05-03 11:40:19,097 - INFO - backend - file_test: End of file test...
+2022-05-03 11:42:36,552 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-03 11:42:36,553 - INFO - backend - __init__: Backend Initialized
+2022-05-03 11:42:36,553 - INFO - backend - __init__: Site ID : 607
+2022-05-03 11:42:36,553 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 11:42:36,553 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 11:42:36,553 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:42:36,554 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 11:42:36,554 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 11:42:36,558 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:42:36,563 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-03 11:42:36,564 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-03 11:42:43,443 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-03 11:42:43,443 - INFO - backend - file_test: Beginning of file test...
+2022-05-03 11:42:49,485 - INFO - backend - file_test: End of file test...
+2022-05-03 11:43:38,238 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-03 11:43:38,238 - INFO - backend - __init__: Backend Initialized
+2022-05-03 11:43:38,238 - INFO - backend - __init__: Site ID : 607
+2022-05-03 11:43:38,238 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 11:43:38,239 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 11:43:38,239 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:43:38,239 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 11:43:38,240 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 11:43:38,244 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:43:38,249 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-03 11:43:38,249 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-03 11:43:44,761 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-03 11:43:44,762 - INFO - backend - file_test: Beginning of file test...
+2022-05-03 11:43:51,481 - INFO - backend - file_test: End of file test...
+2022-05-03 11:44:02,968 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-03 11:44:02,968 - INFO - backend - __init__: Backend Initialized
+2022-05-03 11:44:02,968 - INFO - backend - __init__: Site ID : 607
+2022-05-03 11:44:02,969 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 11:44:02,969 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 11:44:02,969 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:44:02,969 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 11:44:02,970 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 11:44:02,975 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:44:02,983 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-03 11:44:02,983 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-03 11:44:10,307 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-03 11:44:10,307 - INFO - backend - file_test: Beginning of file test...
+2022-05-03 11:44:17,326 - INFO - backend - file_test: End of file test...
+2022-05-03 11:44:59,797 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-03 11:44:59,797 - INFO - backend - __init__: Backend Initialized
+2022-05-03 11:44:59,797 - INFO - backend - __init__: Site ID : 607
+2022-05-03 11:44:59,797 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 11:44:59,798 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 11:44:59,798 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:44:59,798 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 11:44:59,799 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 11:44:59,803 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:44:59,810 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-03 11:44:59,810 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-03 11:45:07,941 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-03 11:45:07,941 - INFO - backend - file_test: Beginning of file test...
+2022-05-03 11:45:15,049 - INFO - backend - file_test: End of file test...
+2022-05-03 11:45:42,089 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-03 11:45:42,090 - INFO - backend - __init__: Backend Initialized
+2022-05-03 11:45:42,091 - INFO - backend - __init__: Site ID : 607
+2022-05-03 11:45:42,092 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 11:45:42,093 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 11:45:42,093 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:45:42,093 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 11:45:42,094 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 11:45:42,102 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:45:42,111 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-03 11:45:42,112 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-03 11:45:50,446 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-03 11:45:50,447 - INFO - backend - file_test: Beginning of file test...
+2022-05-03 11:45:57,983 - INFO - backend - file_test: End of file test...
+2022-05-03 11:47:16,437 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-03 11:47:16,437 - INFO - backend - __init__: Backend Initialized
+2022-05-03 11:47:16,438 - INFO - backend - __init__: Site ID : 607
+2022-05-03 11:47:16,438 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 11:47:16,438 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 11:47:16,438 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:47:16,438 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 11:47:16,439 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 11:47:16,442 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:47:16,448 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-03 11:47:16,449 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-03 11:47:23,689 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-03 11:47:23,690 - INFO - backend - file_test: Beginning of file test...
+2022-05-03 11:47:30,555 - INFO - backend - file_test: End of file test...
+2022-05-03 11:48:59,384 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-03 11:48:59,385 - INFO - backend - __init__: Backend Initialized
+2022-05-03 11:48:59,385 - INFO - backend - __init__: Site ID : 607
+2022-05-03 11:48:59,385 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 11:48:59,385 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 11:48:59,386 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:48:59,386 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 11:48:59,386 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 11:48:59,387 - INFO - backend - walk_through_files: Created : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith_did
+2022-05-03 11:48:59,395 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:48:59,401 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-03 11:48:59,401 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-03 11:49:07,622 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-03 11:49:07,622 - INFO - backend - file_test: Beginning of file test...
+2022-05-03 11:49:15,104 - INFO - backend - file_test: End of file test...
+2022-05-03 11:50:23,297 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-03 11:50:23,297 - INFO - backend - __init__: Backend Initialized
+2022-05-03 11:50:23,297 - INFO - backend - __init__: Site ID : 607
+2022-05-03 11:50:23,297 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 11:50:23,298 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 11:50:23,298 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:50:23,298 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 11:50:23,298 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 11:50:23,306 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:50:23,312 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-03 11:50:23,312 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-03 11:50:30,625 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-03 11:50:30,625 - INFO - backend - file_test: Beginning of file test...
+2022-05-03 11:50:37,790 - INFO - backend - file_test: End of file test...
+2022-05-03 11:51:21,784 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-03 11:51:21,784 - INFO - backend - __init__: Backend Initialized
+2022-05-03 11:51:21,784 - INFO - backend - __init__: Site ID : 607
+2022-05-03 11:51:21,785 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 11:51:21,785 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 11:51:21,785 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:51:21,785 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 11:51:21,786 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 11:51:21,790 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:51:21,796 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-03 11:51:21,796 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-03 11:51:29,394 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-03 11:51:29,394 - INFO - backend - file_test: Beginning of file test...
+2022-05-03 11:51:36,524 - INFO - backend - file_test: End of file test...
+2022-05-03 11:52:55,104 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-03 11:52:55,104 - INFO - backend - __init__: Backend Initialized
+2022-05-03 11:52:55,105 - INFO - backend - __init__: Site ID : 607
+2022-05-03 11:52:55,105 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 11:52:55,105 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 11:52:55,105 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:52:55,106 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 11:52:55,106 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 11:52:55,112 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:52:55,119 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-03 11:52:55,119 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-03 11:53:02,378 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-03 11:53:02,379 - INFO - backend - file_test: Beginning of file test...
+2022-05-03 11:53:09,222 - INFO - backend - file_test: End of file test...
+2022-05-03 11:53:56,908 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-03 11:53:56,908 - INFO - backend - __init__: Backend Initialized
+2022-05-03 11:53:56,908 - INFO - backend - __init__: Site ID : 607
+2022-05-03 11:53:56,908 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 11:53:56,909 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 11:53:56,909 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:53:56,909 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 11:53:56,910 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 11:53:56,914 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:53:56,922 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-03 11:53:56,923 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-03 11:54:04,069 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-03 11:54:04,070 - INFO - backend - file_test: Beginning of file test...
+2022-05-03 11:54:10,829 - INFO - backend - file_test: End of file test...
+2022-05-03 11:54:48,832 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-03 11:54:48,832 - INFO - backend - __init__: Backend Initialized
+2022-05-03 11:54:48,832 - INFO - backend - __init__: Site ID : 607
+2022-05-03 11:54:48,833 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-03 11:54:48,833 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-03 11:54:48,833 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:54:48,833 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-03 11:54:48,834 - INFO - backend - das_file_reader: .das file has been read
+2022-05-03 11:54:48,840 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-03 11:54:48,850 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-03 11:54:48,851 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-03 11:54:57,042 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-03 11:54:57,043 - INFO - backend - file_test: Beginning of file test...
+2022-05-03 11:55:04,059 - INFO - backend - file_test: End of file test...
+2022-05-03 11:55:04,061 - INFO - backend - rename_out_folder: Cannot create directory, C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/12345678901234567890123456789012 already exists
+2022-05-04 10:38:08,951 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-04 10:38:08,953 - INFO - backend - __init__: Backend Initialized
+2022-05-04 10:38:08,953 - INFO - backend - __init__: Site ID : 607
+2022-05-04 10:38:08,953 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-04 10:38:08,953 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-04 10:38:08,953 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-04 10:38:08,953 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-04 10:38:08,959 - INFO - backend - das_file_reader: .das file has been read
+2022-05-04 10:38:08,972 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-04 10:38:08,976 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-04 10:38:08,977 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-04 10:38:19,944 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-04 10:38:19,944 - INFO - backend - file_test: Beginning of file test...
+2022-05-04 10:38:25,142 - INFO - backend - file_test: End of file test...
+2022-05-04 10:39:27,515 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-04 10:39:27,515 - INFO - backend - __init__: Backend Initialized
+2022-05-04 10:39:27,515 - INFO - backend - __init__: Site ID : 607
+2022-05-04 10:39:27,515 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-04 10:39:27,515 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-04 10:39:27,515 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-04 10:39:27,516 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-04 10:39:27,516 - INFO - backend - das_file_reader: .das file has been read
+2022-05-04 10:39:27,516 - INFO - backend - walk_through_files: Created : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith_did
+2022-05-04 10:39:27,524 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-04 10:39:27,529 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-04 10:39:27,529 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-04 10:39:34,683 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-04 10:39:34,683 - INFO - backend - file_test: Beginning of file test...
+2022-05-04 10:39:39,823 - INFO - backend - file_test: End of file test...
+2022-05-04 10:40:49,403 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-04 10:40:49,404 - INFO - backend - __init__: Backend Initialized
+2022-05-04 10:40:49,404 - INFO - backend - __init__: Site ID : 607
+2022-05-04 10:40:49,404 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-04 10:40:49,405 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-04 10:40:49,405 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-04 10:40:49,406 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-04 10:40:49,407 - INFO - backend - das_file_reader: .das file has been read
+2022-05-04 10:40:49,408 - INFO - backend - walk_through_files: Created : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith_did
+2022-05-04 10:40:49,426 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-04 10:40:49,442 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-04 10:40:49,442 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-04 10:40:58,612 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-04 10:40:58,613 - INFO - backend - file_test: Beginning of file test...
+2022-05-04 10:41:05,156 - INFO - backend - file_test: End of file test...
+2022-05-04 10:41:05,158 - INFO - backend - rename_out_folder: Cannot create directory, C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/12345678901234567890123456789012 already exists
+2022-05-04 10:45:14,303 - INFO - logger - __init__: Logger module has been Initialized
+2022-05-04 10:45:14,303 - INFO - backend - __init__: Backend Initialized
+2022-05-04 10:45:14,303 - INFO - backend - __init__: Site ID : 607
+2022-05-04 10:45:14,303 - INFO - backend - __init__: Participant ID : 1234567890
+2022-05-04 10:45:14,304 - INFO - backend - __init__: Scan Session ID : 12345678901234567890123456789012
+2022-05-04 10:45:14,304 - INFO - backend - __init__: Path to Files : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-04 10:45:14,304 - INFO - backend - das_file_reader: Reading in the .das file: bin/anon_for_discovery.das
+2022-05-04 10:45:14,305 - INFO - backend - das_file_reader: .das file has been read
+2022-05-04 10:45:14,305 - INFO - backend - walk_through_files: Created : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith_did
+2022-05-04 10:45:14,315 - INFO - backend - walk_through_files: Reading in filenames from path : C:/Users/19785/Documents/MGH/Tasks/dicom_deidentification/Dicom_Deidentify_1.0/test_files/John_Smith
+2022-05-04 10:45:14,319 - INFO - backend - walk_through_files: Finished reading files...found 1031 files
+2022-05-04 10:45:14,319 - INFO - backend - deidentify_files: Deidentifying 1031 files.
+2022-05-04 10:45:19,747 - INFO - backend - deidentify_files: Deidentification of 1031 files complete
+2022-05-04 10:45:19,747 - INFO - backend - file_test: Beginning of file test...
+2022-05-04 10:45:24,749 - INFO - backend - file_test: End of file test...
