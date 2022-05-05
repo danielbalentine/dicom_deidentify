@@ -51,6 +51,7 @@ Added rename_out_folder module...is this needed? is this the most efficient way 
 import pydicom
 import os
 import hashlib
+import sys
 import shutil
 
 
@@ -188,6 +189,8 @@ class DataSet:
         self.tags_actually_hashed = []
         self.log.logger.info('Deidentifying {} files.'.format(self.num_of_files))
         # open each file with Pydicom dcmread method
+        # file is a full file path for each file in original directory selected by user...
+        # ex. C:/Users/John/Desktop/Scan1/MRI/T2/0001.dcm
         for file in self.file_paths:
             try:
                 self.ds = pydicom.dcmread(file)
@@ -196,10 +199,13 @@ class DataSet:
                 # self.log.logger.error('Could not read file {} without force'.format(file))
                 try:
                     self.ds = pydicom.dcmread(file, force=True)
+                    self.ds.ImageType
+
 
                 except:
+                    self.log.logger.error('File {} is not a dicom file.'.format(file))
                     break
-                    # self.log.logger.error('Could not read file {} with force'.format(file))
+
 
             # remove values
             for i in self.to_remove:
@@ -307,7 +313,6 @@ class DataSet:
             if src[i] =='/':
                 count = i + 1
                 break
-        print(src[:count])
         dst = src[:count] + self.scan_session_ID
 
         # rename the folder

@@ -1,7 +1,7 @@
 # THIS IS THE FRONT END DRIVER...FRONT END WILL MAKE CALLS TO BACK END
 # BEGUN: 2022-3-17
 
-# This code will be utilized to anonomize dicom dite in compliance with various Entrepot studies.
+# This code will be utilized to anonymize dicom date in compliance with various Entrepot studies.
 
 # This code creates a user interface for a DicomDeidentify app and calls (insert backend file here)
 # to do the processing.
@@ -32,6 +32,19 @@ from tkinter.font import Font
 from threading import Thread
 import backend as back
 import logger
+import sys
+import os
+import pydicom
+
+# constants
+WINDOW_WIDTH = 900
+WINDOW_HEIGHT = 810
+MARKVCID_SITE_ID_BANK = [602,603,604,605,606,607,608,609,617,618,622,633,635,650,
+                    651]
+DISCOVERY_SITE_ID_BANK = [612,617,618,610,634,622,613,627,628,629,631,632,637,611,
+                     638,620,615,625,633,635,636,616,639,630,626,614,624,640,
+                     641]
+
 
 
 # user interface class for application
@@ -41,7 +54,7 @@ class DicomDeidentifyApp(tk.Tk):
         self.log = logger.log_module()
         
         # set overall window size (in Pixels)
-        self.geometry("900x810")
+        self.geometry(str(WINDOW_WIDTH) + 'x' + str(WINDOW_HEIGHT))
 
         # initialize left corner icon and left corner app title
         tk.Tk.iconbitmap(self, default="images/ddicon.ico")
@@ -78,8 +91,8 @@ class DicomDeidentifyApp(tk.Tk):
         self.CLEAR_BUTTON_IMG = tk.PhotoImage(file=f"images/page_1/clear_button.png")
 
         # define a canvas to place widgets
-        self.canvas = tk.Canvas(self, width=900,
-                                height=810,
+        self.canvas = tk.Canvas(self, width=WINDOW_WIDTH,
+                                height=WINDOW_HEIGHT,
                                 bg="#ffffff",
                                 bd=0,
                                 highlightthickness=0,
@@ -90,13 +103,14 @@ class DicomDeidentifyApp(tk.Tk):
         # create canvas background image
         background = self.canvas.create_image(116.5, 357.0, image=self.BACKGROUND_IMG)
 
-        # create entry widget and label for Patient ID
+        # Patient ID entry widget and label
         self.patientID_label = tk.Label(self.canvas,
                                         text ="Participant ID",
                                         font=self.Main_Font,
                                         foreground=self.blue_light,
                                         background = self.back_color)
         self.patientID_label.place(x=597,y=301, anchor = 'center')
+
         entry0_bg = self.canvas.create_image(
             597.0, 336.5,
             image=self.ENTRY0_IMG)
@@ -109,13 +123,14 @@ class DicomDeidentifyApp(tk.Tk):
             width=202.0,
             height=39)
 
-        # create entry widget and label for scan session ID
+        # Scan Session ID entry widget and label
         self.scan_session_ID_label = tk.Label(self.canvas, text="Scan Session ID", font=self.Main_Font, foreground=self.blue_light,
                                         background=self.back_color)
         self.scan_session_ID_label.place(x=597, y=402, anchor='center')
         entry1_bg = self.canvas.create_image(
             597.0, 433.5,
             image=self.ENTRY1_IMG)
+
         self.entryScanSessionID = tk.Entry(self.canvas,
                           bd=0,
                           bg="#ffffff",
@@ -125,13 +140,14 @@ class DicomDeidentifyApp(tk.Tk):
             width=202.0,
             height=39)
 
-        # create entry widget for Site ID
+        # Site ID entry widget and label
         self.site_ID_label = tk.Label(self.canvas, text="Site ID", font=self.Main_Font, foreground=self.blue_light,
                                         background=self.back_color)
         self.site_ID_label.place(x=597, y=203, anchor='center')
         entry2_bg = self.canvas.create_image(
             597.0, 239.5,
             image=self.ENTRY2_IMG)
+
         self.entrySiteID = tk.Entry(self.canvas,
                           bd=0,
                           bg="#ffffff",
@@ -145,7 +161,7 @@ class DicomDeidentifyApp(tk.Tk):
                                         background=self.back_color)
         self.select_files_label.place(x=597, y=507, anchor='center')
 
-        # create a continue button Widget...could make this a ttk button possibly
+        # create a browse button Widget
         self.browse_button = tk.Button(self.canvas,
                        image=self.BROWSE_FILES_IMG,
                        borderwidth=0,
@@ -177,7 +193,7 @@ class DicomDeidentifyApp(tk.Tk):
             image= self.CLOSE_BUTTON_IMG,
             borderwidth=0,
             highlightthickness=0,
-            command=lambda: exit(),
+            command=lambda: sys.exit(),
             relief="flat")
         self.close_button.place(
             x=866, y=4,
@@ -197,14 +213,69 @@ class DicomDeidentifyApp(tk.Tk):
 
     def browse_files(self):
         self.log.logger.info("Browse files button clicked")
+        # prompts users with file dialog and stores path they select in var
+        # self.path...
         self.path = filedialog.askdirectory()
-        self.browse_button.destroy()
-        self.select_files_label.destroy()
-        # start button calls get entry
-        self.start_button.place(
-            x=502, y=547,
-            width=190,
-            height=61)
+
+        self.true_dicom_files = self.check_path_for_dicom_files(self.path)
+
+        if self.true_dicom_files == True:
+            # .destroy() removes elements from canvas...they can be placed again.
+            self.browse_button.destroy()
+            self.select_files_label.destroy()
+            # start button calls get entry
+            self.start_button.place(
+                x=502, y=547,
+                width=190,
+                height=61)
+        elif self.true_dicom_files == False:
+            self.popup('Folder contains non-dicom files.')
+        elif self.true_dicom_files == 'empty':
+            self.popup('You have selected an empty folder')
+
+
+    def check_path_for_dicom_files(self, path):
+        file_paths = []
+        # loop to walk through each subdirectory
+        for (root, dirs, files) in os.walk(path):
+
+            # identify each file that exists
+            for file in files:
+
+                # makes sure we are grabbing files and not sub directories
+                if file != '':
+                    # join root name and filename to get full path:
+                    # ex. root = 'C:/Desktop/ScanSession/diffusion' , file = 'D00004.dcm'
+                    fname = os.path.join(root, file)
+
+                    # append the full file paths to array self.file_paths
+                    file_paths.append(fname)
+        empty = False
+        if len(file_paths) == 0:
+            empty = True
+
+        non_dicom_files = []
+        # could you optimize by putting this in the first loop?
+        for file in file_paths:
+            try:
+                self.ds = pydicom.dcmread(file)
+            except:
+
+                # self.log.logger.error('Could not read file {} without force'.format(file))
+                try:
+                    self.ds = pydicom.dcmread(file, force=True)
+                    self.ds.ImageType
+                except:
+                    self.log.logger.error('File {} is not a dicom file.'.format(file))
+                    non_dicom_files.append(file)
+        if len(non_dicom_files) == 0 and empty == False:
+            return True
+        elif len(non_dicom_files) ==0 and empty == True:
+            return_str = 'empty'
+            return return_str
+        else:
+            return False
+
 
     def get_entry(self):
         self.log.logger.info("Start button clicked")
@@ -219,18 +290,13 @@ class DicomDeidentifyApp(tk.Tk):
         self.after(2000,popup.destroy)
 
     def check_entry(self):
-        #store all valid site ID
-        markvcid_site_ID = [602,603,604,605,606,607,608,609,617,618,622,633,635,
-                           650,651]
-        discovery_site_ID = [612,617,618,610,634,622,613,627,628,629,631,632,637,
-                            611,638,620,615,625,633,635,636,616,639,630,626,614,624,640,641]
-        site_ID_bank = markvcid_site_ID + discovery_site_ID
+        site_ID_bank = MARKVCID_SITE_ID_BANK + DISCOVERY_SITE_ID_BANK
         site_ID_bank = list(map(str,site_ID_bank))
 
         #entry quality check
         if len(self.siteID) == 3 and \
                 self.siteID in site_ID_bank and \
-                len(self.patientID) and \
+                len(self.patientID) == 10 and \
                 len(self.scansessionID) == 32:
             self.run_backend()
         elif len(self.siteID) != 3:
@@ -249,19 +315,29 @@ class DicomDeidentifyApp(tk.Tk):
         # a results list is created to get any info from backend. Passed into our back.run function as an arg.
         self.thread_results = []
 
-        # using threading so GUI is still responsive while backend runs
-        # parent used to show this is front_end running, needed for unit tests
+        # parent used to show this is front_end running, needed for when we call unit tests...which have parent 'test'
         parent = 'front_end'
+        
+        # We utilize a thread here to keep the GUI responsive when the back end is running...
+        # back.run is the function we are running (imported at top), and it comes from backend.py...
+        # we pass args from front end into back.run...
+        # self.thread_results is a list which can bring information back to the front_end...
+        # all thread_results stores right now is the number of files being deidentified...
+        # self.log is just the logger...
+        # parent tells backend this is a true front end call...not a test
+        
         thread1 = Thread(target=back.run, args=[self.path,self.siteID,self.patientID,self.scansessionID,self.thread_results,self.log, parent])
         thread1.start()
         # monitor if thread1 is still running
-        self.monitor_thread(thread1)
+        self.check_thread_status(thread1)
 
-    def monitor_thread(self,thread):
+    def check_thread_status(self,thread):
+        # recursively check if thread is still running (back.run)
         if thread.is_alive():
             # check the thread every 100ms
-            self.after(100, lambda: self.monitor_thread(thread))
+            self.after(100, lambda: self.check_thread_status(thread))
         else:
+            # once back.run stops...we move on with the front end
             self.stop_progress_bar()
 
     def start_progress_bar(self):
