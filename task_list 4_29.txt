@@ -1,5 +1,0 @@
-*check if each file is deidentified and only display completion if it has been properly deidentified
-*check if a file is an actual dicom file using image type
-*check chris slack comments about above
-*add hashed values into file test
-*optimizes rename to scan session ID
